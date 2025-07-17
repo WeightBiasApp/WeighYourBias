@@ -7,7 +7,7 @@ import tailwind from "tailwindcss";
 export default defineConfig(({ command }) => ({
   plugins: [react()],
   publicDir: "./static",
-  base: command === 'serve' ? '/' : '/weigh-your-bias/', // Update with your repo name
+  base: command === 'serve' ? '/' : '/WeighYourBias/',
   css: {
     postcss: {
       plugins: [tailwind()],
