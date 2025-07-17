@@ -85,7 +85,9 @@ import { ToolsToSurfaceUB } from "./screens/ToolsToSurfaceUB";
 
 function App() {
   return (
-    <Router>
+
+    
+        <Router basename="/WeighYourBias/">
       {/* ✨ Scroll reset component — add once, anywhere inside <Router> */}
       <ScrollToTop />
 
