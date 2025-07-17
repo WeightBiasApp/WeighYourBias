@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 import tailwind from "tailwindcss";
 
-// https://vitejs.dev/config/
+// https://vitets.dev/config/
 export default defineConfig(({ command }) => ({
   plugins: [react()],
   publicDir: "./static",
